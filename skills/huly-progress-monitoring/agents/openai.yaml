@@ -1,0 +1,4 @@
+interface:
+  display_name: "项目进度监控"
+  short_description: "识别进度偏差、阻塞、关键路径与恢复动作"
+  default_prompt: "使用 $huly-progress-monitoring 检查项目实际进度、计划偏差、阻塞和下一步。"

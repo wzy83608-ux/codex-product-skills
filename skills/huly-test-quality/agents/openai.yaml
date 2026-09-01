@@ -1,0 +1,4 @@
+interface:
+  display_name: "产品测试质量评估"
+  short_description: "检查验收覆盖、关键缺陷、未测范围和残余风险"
+  default_prompt: "使用 $huly-test-quality 从产品经理视角评估当前测试质量和发布阻塞项。"

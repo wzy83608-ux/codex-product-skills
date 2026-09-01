@@ -1,0 +1,4 @@
+interface:
+  display_name: "产品发布与运营准备"
+  short_description: "检查灰度、兼容、监控、回退、沟通和值守准备"
+  default_prompt: "使用 $huly-release-operations 检查当前版本的发布准备、风险和 Go/No-Go 条件。"

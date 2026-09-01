@@ -1,0 +1,4 @@
+interface:
+  display_name: "会议纪要与决策"
+  short_description: "整理会议结论、决策、分歧、待确认事项与行动项"
+  default_prompt: "使用 $huly-meeting-decisions 将会议内容整理为可追溯的决策、待确认事项和行动项。"

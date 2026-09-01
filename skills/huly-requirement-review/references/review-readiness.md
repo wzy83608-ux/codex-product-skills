@@ -12,6 +12,8 @@
 
 Readiness 只判断能否进入 Review，不判断内容正确性。未就绪时逐项保存缺失字段、来源版本、为什么阻止 Reviewer 和返回 Requirement Analysis 的建议动作；Reviewer 不得代补字段。
 
+Target User、Scenario 和 User Goal 足以进入使用者视角评审时，不要求上游新增固定字段。若这些字段虽然非空但无法还原任何实际使用状态，在正式 Review 中形成证据或信息缺口 Finding，而不是在 Readiness 阶段代为推演。
+
 ## 独立记录与指纹
 
 `RRRxxx` 保存 Requirement ID、R 版本、业务/机器结果、Missing Fields、Blocking Reasons、Upstream Version、Fingerprint、检查时间、Reviewer Version、Confirmation 兼容模式、Huly 能力和未来 Search Plan。

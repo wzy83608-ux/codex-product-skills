@@ -1,4 +1,4 @@
 interface:
   display_name: "需求质量与证据评审"
-  short_description: "评审需求定义、证据强度、一致性和阻塞信息缺口"
-  default_prompt: "使用 $huly-requirement-review 审查我提供的需求定义和证据，找出质量问题、矛盾及阻塞缺口。"
+  short_description: "从使用者视角评审需求质量、实用性和用户价值"
+  default_prompt: "使用 $huly-requirement-review 审查我提供的需求定义和证据，并站在实际使用者状态评估需求的实用性、用户价值、质量问题和阻塞缺口。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "产品项目管理"
+  short_description: "管理范围、里程碑、Owner、依赖、风险和变更"
+  default_prompt: "使用 $huly-project-management 基于已批准范围建立项目计划、里程碑、依赖和风险视图。"

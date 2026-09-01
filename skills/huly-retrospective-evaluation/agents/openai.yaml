@@ -1,0 +1,4 @@
+interface:
+  display_name: "产品项目复盘评估"
+  short_description: "对照目标与结果复盘决策、交付和可执行改进"
+  default_prompt: "使用 $huly-retrospective-evaluation 对照原目标和实际结果完成产品项目复盘。"

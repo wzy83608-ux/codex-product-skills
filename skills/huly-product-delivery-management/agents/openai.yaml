@@ -1,4 +1,4 @@
 interface:
-  display_name: "项目交付进度与风险管理"
-  short_description: "管理项目进度、决策、风险、质量、发布准备与复盘"
-  default_prompt: "使用 $huly-product-delivery-management 汇总项目进度、关键决策、风险、阻塞和下一步行动。"
+  display_name: "产品交付综合总览"
+  short_description: "生成跨决策、进度、质量、发布和数据的项目周报"
+  default_prompt: "使用 $huly-product-delivery-management 汇总项目健康度、进展、决策、风险、质量、发布准备和下一步。"
