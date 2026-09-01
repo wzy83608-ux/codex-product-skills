@@ -1,0 +1,4 @@
+interface:
+  display_name: "需求优先级评估与排序"
+  short_description: "比较需求价值、风险和交付条件并给出优先级排序"
+  default_prompt: "使用 $huly-priority-evaluation 评估我提供的需求或需求池，并给出有证据支持的优先级和排序。"

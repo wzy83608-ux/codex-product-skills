@@ -1,0 +1,6 @@
+interface:
+  display_name: "Huly Write API"
+  short_description: "搭建、配置并测试安全的 Huly 文档追加 API"
+  default_prompt: "Use $huly-write-api to build and test a safe Huly document append API with user-provided connection settings."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,4 @@
+interface:
+  display_name: "连接检测与只读资料检索"
+  short_description: "检测资料系统连接并安全读取事项、文档和相关证据"
+  default_prompt: "使用 $huly-connection-toolkit 检查可用资料源，并以只读方式检索我指定的事项或证据。"

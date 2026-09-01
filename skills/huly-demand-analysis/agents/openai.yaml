@@ -1,0 +1,4 @@
+interface:
+  display_name: "用户反馈与需求分析"
+  short_description: "分析用户反馈并识别核心需求、假设和信息缺口"
+  default_prompt: "使用 $huly-demand-analysis 分析这条用户或业务反馈，区分事实、假设、未知项和真正的需求。"

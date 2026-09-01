@@ -1,0 +1,4 @@
+interface:
+  display_name: "产品方案与详细设计"
+  short_description: "生成和比较产品方案并完成流程、规则与验收设计"
+  default_prompt: "使用 $huly-product-design 根据需求、约束和证据生成产品方案，完成比较和详细产品设计。"

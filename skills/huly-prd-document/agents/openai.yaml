@@ -1,0 +1,4 @@
+interface:
+  display_name: "PRD 需求文档生成与审查"
+  short_description: "根据产品输入生成、整理和审查可追溯的 PRD 文档"
+  default_prompt: "使用 $huly-prd-document 根据我提供的产品输入生成或审查一份结构完整、来源可追溯的 PRD。"
