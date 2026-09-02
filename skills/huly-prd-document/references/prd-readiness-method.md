@@ -1,27 +1,21 @@
 # PRD 就绪检查方法
 
-## 自动读取的上游记录
+## 可用输入
 
-- Requirement：R、RC
-- Priority：P、PC
-- Solution：S、SD
-- Detailed Design：最新 DD
-- Product Design Reviewer：与最新 DD 对应的最新 DR
-- Human Confirmation：相关 HDC 及每个 Owner 的最新 HCR
-- PM Final Design Approval：最新 FDA
+可以使用用户输入、需求分析、已确认方案、原型、会议决定、历史产品资料、业务Owner确认、Huly证据和可核验公开资料。存在正式版本链时读取其最新有效记录；不存在时以 `STANDALONE_DRAFT` 模式评估证据是否足以支撑用户要求的章节。
 
 ## 阻塞条件
 
-以下任一情况都输出“PRD 未就绪”：需求或优先级未由 PM 确认；无有效 Selected Solution；缺少当前 DD 或 DR；Reviewer 不是无阻塞的 PASS/CORRECTED；Blocking HC 未完成、需要更多信息或存在决定冲突；人工结论推翻方案核心前提；存在会改变设计的未决问题；FDA 缺失、非 APPROVE、已被新版本取代或审批指纹不匹配。
+以下情况输出“受影响内容未就绪”：没有证据支持核心问题或目标用户；范围、核心流程、关键规则、权限或验收结果存在会改变产品行为的缺口；来源互相冲突且没有有效决定；引用的历史产品状态不明；需要互联网或行业依据但尚未完成核验；正式流程模式下当前审批或版本链已经失效。
 
 每个阻塞项必须说明问题、影响、Owner 和处理入口。不得由 AI 代替 Owner 决策。
 
 ## 非阻塞条件
 
-Reviewer 明确分类为 NON_BLOCKING、且不会改变当前设计主干的 Assumption / Open Question 可以保留为后续项，不阻止 PRD 整理。它们进入标准 PRD 第 20 节，不得悄悄转成确定规则。
+不会改变当前设计主干的假设或开放问题可以作为待确认事项，不阻止其他有依据内容成文。没有内容或依据的可选模块直接省略，不把缺失模块本身视为阻塞。
 
 ## 状态与保存
 
 业务状态：PRD 尚未开始 → 正在检查 PRD 是否就绪 → PRD 未就绪 / PRD 已就绪。
 
-每次检查追加保存 `PRCxxx`，包含 Requirement ID、结果、阻塞项、非阻塞项、完整上游版本链、FDA 审批指纹、检查时间、来源溯源和 21 节结构定义。到达“PRD 已就绪”后停止，`prdGenerated` 必须为 `false`。
+需要正式记录时，检查结果保存Requirement ID、模式、阻塞项、非阻塞项、证据账本、有效上游版本链、审批指纹、检查时间、来源溯源和适用章节。独立草稿不伪造 `PRCxxx` 或正式状态。

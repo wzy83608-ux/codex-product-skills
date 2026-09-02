@@ -14,9 +14,9 @@ Gate 就绪只能输出“等待产品经理最终确认 PRD”，不得自动�
 
 审批卡用中文摘要展示：需求和版本基本信息；最终 Core Problem、Target User、User Goal；PM Selected Solution、AI Recommendation 与 Alignment；In/Out/Derived Scope；核心用户流程；FR、BR、State、Exception、Permission、AC、Data/Logging 摘要；Reviewer 结果；不阻塞审批的待跟进项；PRD 版本变化；当前审批目标及完整指纹。
 
-审批卡不复制整份 21 节正文，也不允许重新选择方案。
+审批卡不复制整份PRD正文，也不允许重新选择方案。
 
-最终审批前必须有可验证的量化或定性成功标准。若确实无法或不适合定义，PM 必须显式保存 `METRIC_WAIVED`、Waiver Reason、Approved By、Approved At；不得让空指标静默通过，也不得由 AI 编造目标值或时间窗口。
+若当前需求适合定义成功标准，最终审批前应有来源明确、可验证的量化或定性标准。若资料未提供，AI不得编造目标值或时间窗口；正式流程可由PM明确记录暂不设定的原因，独立草稿则省略该内容并列为待确认。
 
 ## PM 操作
 

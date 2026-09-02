@@ -15,7 +15,7 @@
 | 需求质量与证据评审 | `skills/huly-requirement-review` | 从使用者视角评审需求质量、实用性、用户价值和证据 |
 | 需求优先级评估与排序 | `skills/huly-priority-evaluation` | 进行 P0/P1/P2/P3 评估和相对排序 |
 | 产品方案与详细设计 | `skills/huly-product-design` | 生成和比较方案，设计流程、规则、状态与验收标准 |
-| PRD 需求文档生成与审查 | `skills/huly-prd-document` | 生成、整理和审查可追溯 PRD |
+| PRD 需求文档生成与审查 | `skills/huly-prd-document` | 按可靠依据生成PRD，流程图直接显示在正文，原型提供本地地址 |
 | 产品交付综合总览 | `skills/huly-product-delivery-management` | 独立汇总决策、计划、进度、质量、发布、数据和复盘 |
 | 项目进度监控 | `skills/huly-progress-monitoring` | 根据交付物和最新证据识别偏差、阻塞和恢复动作 |
 | 产品项目管理 | `skills/huly-project-management` | 管理目标、范围、里程碑、Owner、依赖、风险和变更 |
